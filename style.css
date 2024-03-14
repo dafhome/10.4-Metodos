@@ -1,0 +1,82 @@
+body{
+
+    background-image: url(/images/party.webp);
+    background-size: cover;
+    background-position: center;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+
+}
+section{
+    height: 60vh;
+    width: 80%;
+    
+    
+    /* background-color: black; */
+}
+.container-modal{
+    /* border: 2px solid #EEEDEC ; */
+    height: 100%;
+    background-color: #eeedeca2;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+
+    
+
+}
+.bar{
+    display: flex;
+    /* position: relative; */
+    justify-content: space-between;
+    align-items: center;
+    /* height: 30px; */
+    
+    background-color: #EEEDEC;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px 30px 10px 30px;
+
+
+}
+h1{
+    font-size: xx-large;
+}
+p{
+    font-size: x-large;
+    columns: 6;
+    
+}
+.button-bar{
+
+    display: flex;
+    align-items: center;
+    gap: 2px;
+
+}
+.resultado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button{
+    bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+footer{
+    position: fixed;
+    bottom: 20px;
+}
