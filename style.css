@@ -54,6 +54,7 @@ h1{
 p{
     font-size: x-large;
     columns: 6;
+    text-align: center;
     
 }
 .button-bar{
